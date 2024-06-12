@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Hello World",
+    "description": "This is my first hello world browser extension",
+
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+
+    "action": {
+        "default_icon": "images/48.png",
+        "default_popup": "index.html"
+    },
+
+    "permissions": ["activeTab"]
+}
